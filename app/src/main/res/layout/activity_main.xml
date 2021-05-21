@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin khóa học"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng Số khóa học:"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/sum"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/recycle"
+        android:padding="10dp"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addIcon"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:src="@drawable/add_24"/>
+</LinearLayout>
